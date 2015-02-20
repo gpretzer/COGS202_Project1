@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COGS 202 Project 1</title>
+</head>
+
+<body>
+
+    <!--add project title here when it's decided-->
+
+    <h1>[Experiment Title]</h1>
+
+    <!--think of description of experiment-->
+
+    <p>[Description of experiment]</p>
+
+    <p>[Instructions for experiment]</p>
+
+
+    <!--Here are audio controls - how to play the audio-->
+    <!--Need to create audio files, add them here-->
+
+    <audio controls>
+        <source src="g1.wav" type="audio/wav">
+    </audio>
+    <!--I want two buttons here - one for "mature" and one for "immature" to describe sounds-->
+        <br>
+    <p>[audio instructions]</p>
+    <br>
+    <audio controls>
+        <source src="g2.wav" type="audio/wav">
+    </audio>
+    <br>
+    <p>[audio instructions]</p>
+    <br>
+    <audio controls>
+        <source src="g3.wav" type="audio/wav">
+    </audio>
+    <br>
+    <p>[audio instructions]</p>
+    <br>
+
+    <!--I want to have each audio sample on a separate page; after clicking the answer, go to the next audio sample-->
+
+    <!-- For some reason the below does not work if id is swapped with preload.  Why?-->
+    <!--<audio preload="true"  id="g3">
+        <source src="g3.wav" type="audio/wav" /> Working?
+    </audio>
+
+    <br>
+    <br>
+    <button onclick="run_g3()">test g3</button>-->
+    <!--I do want a button, but not sure what yet-->
+
+</body>
+<script>
+//what does this do? I think it is broken.
+
+function run_g3() {
+    var g3 = document.getElementById("g3");
+    console.log("test " + g3);
+    g3.play();
+};
+</script>
+
+</html>
