@@ -8,16 +8,20 @@
 
 <body>
 
-    <!--add project title here when it's decided-->
+    <!--add project title here when it's decided; I'm not sure I like this, but I'll keep it for now-->
 
-    <h1>[Experiment Title]</h1>
+    <h1>Infant Vocalizations Task</h1>
 
-    <!--think of description of experiment-->
+    <!--think of description of experiment; make this better!-->
 
-    <p>[Description of experiment]</p>
+    <p>Infants make a wide variety of sounds - some are speech-like and others are not. The purpose of this task is to decide if an infant vocalization is speech-like or not. You will listent to 20 infant vocalizations and determine if they are speech-like or not.</p>
 
-    <p>[Instructions for experiment]</p>
-
+    <ul>
+        <p>Instructions:</p>
+        <li>Click the arrow to play the infant vocalization (up to three times)</li>
+        <li>Decide whether the infant vocalization is speech-like or not</li>
+        <li>Click the button with your choice to go to the next vocalization</li>
+    </ul>
 
     <!--Here are audio controls - how to play the audio-->
     <!--Need to create audio files, add them here-->
@@ -25,24 +29,36 @@
     <audio controls>
         <source src="g1.wav" type="audio/wav">
     </audio>
-    <!--I want two buttons here - one for "mature" and one for "immature" to describe sounds-->
-        <br>
-    <p>[audio instructions]</p>
     <br>
+    <br>
+    <button onclick="speechLike()">Speech-Like</button>
+    <button onclick="notSpeechLike()">Not Speech-Like</button>
+    <br>
+    <br>
+
     <audio controls>
         <source src="g2.wav" type="audio/wav">
     </audio>
     <br>
-    <p>[audio instructions]</p>
     <br>
+    <button onclick="speechLike()">Speech-Like</button>
+    <button onclick="notSpeechLike()">Not Speech-Like</button>
+    <br>
+    <br>
+
     <audio controls>
         <source src="g3.wav" type="audio/wav">
     </audio>
     <br>
-    <p>[audio instructions]</p>
+    <br>
+    <button onclick="speechLike()">Speech-Like</button>
+    <button onclick="notSpeechLike()">Not Speech-Like</button>
+    <br>
     <br>
 
+    <!--I want 20 audio samples-->
     <!--I want to have each audio sample on a separate page; after clicking the answer, go to the next audio sample-->
+    <!--Buttons are still non-functional-->
 
     <!-- For some reason the below does not work if id is swapped with preload.  Why?-->
     <!--<audio preload="true"  id="g3">
