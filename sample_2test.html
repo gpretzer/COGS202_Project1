@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>COGS 202 Project 1</title>
+</head>
+
+<body>
+
+    <!--this is the first experiment page-->
+
+    <body>
+
+        <!--add project title here when it's decided; I'm not sure I like this, but I'll keep it for now-->
+
+        <h1>Infant Vocalizations Task</h1>
+
+        <!--think of description of experiment; make this better!-->
+
+        <p>Infants make a wide variety of sounds - some are speech-like and others are not. The purpose of this task is to decide if an infant vocalization is speech-like or not. You will listent to 20 infant vocalizations and determine if they are speech-like or not.</p>
+
+        <ul>
+            <p>Instructions:</p>
+            <li>Click the arrow to play the infant vocalization (up to three times)</li>
+            <li>Decide whether the infant vocalization is speech-like or not</li>
+            <li>Click the button with your choice to go to the next vocalization</li>
+        </ul>
+
+        <audio controls>
+            <source src="sample_2.wav" type="audio/wav">
+        </audio>
+        <br>
+        <br>
+        <button onclick="NextTask()">Speech-Like</button>
+        <button onclick="NextTask()">Not Speech-Like</button>
+        <br>
+        <br>
+        <script>
+        function NextTask() {
+            window.location = "file:///Users/ginapretzer/gitstuff/COGS202_Project1/sample_3test.html";
+        };
+        </script>
+
+    </body>
+
+</html>
