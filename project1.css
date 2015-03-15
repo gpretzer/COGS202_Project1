@@ -1,0 +1,24 @@
+body {
+	background-color: mintcream; 
+}
+
+#myheader {
+	text-align: center;
+	font: Helvetica;
+	font-size: 36px;
+}
+
+#myintro {
+	font: Helvetica;
+	font-size: 20px;
+}
+
+#myinstructions {
+	font: Helvetica;
+	font-size: 20px;
+}
+
+#taskbutton {
+	vertical-align: center;
+}
+

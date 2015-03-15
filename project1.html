@@ -4,36 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>COGS 202 Project 1</title>
+    <link rel="stylesheet" href="project1.css">
 </head>
 
 <body>
 
     <!--add project title here when it's decided; I'm not sure I like this, but I'll keep it for now-->
 
-    <h1>Infant Vocalizations Task</h1>
+    <h1 id="myheader">Infant Vocalizations Task</h1>
 
     <!--think of description of experiment; make this better!-->
+    <br>
+    <br>
 
-    <p>Infants make a wide variety of sounds - some are speech-like and others are not. The purpose of this task is to decide if an infant vocalization is speech-like or not. You will listent to 20 infant vocalizations and determine if they are speech-like or not.</p>
+    <p id="myintro">Infants make a wide variety of sounds - some are speech-like and others are not. The purpose of this task is to listen to 20 infant vocalizations and determine if they are speech-like or not.</p>
+    <br>
 
-    <ul>
-        <p>Instructions:</p>
+    <p id="myinstructions">Instructions:</p>
+
+    <ul id="myinstructions">
         <li>Click the arrow to play the infant vocalization (up to three times)</li>
         <li>Decide whether the infant vocalization is speech-like or not</li>
         <li>Click the button with your choice to go to the next vocalization</li>
     </ul>
 
     <!--start experiment button here-->
-
+    <br>
     <button onclick="begin_task()">Begin Task</button>
 </body>
 
 <script>
-
 //start experiment function
-//need to make a file for this
 
-function begin_task () {
+function begin_task() {
     window.location = "sample_1test.html";
 };
 </script>
