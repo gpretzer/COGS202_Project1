@@ -18,7 +18,9 @@ body {
 	font-size: 20px;
 }
 
-#taskbutton {
-	vertical-align: center;
+#audioheader {
+	text-align: center;
+	font: Helvetica;
+	font-size: 20px;
 }
 
